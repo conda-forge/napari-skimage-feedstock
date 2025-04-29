@@ -1,13 +1,13 @@
 {% set name = "napari-skimage" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari_skimage-{{ version }}.tar.gz
-  sha256: a483831e6bd2ae7ee762d0fe78ea98e7d76fe56de26630d1bd32cb12b591b5f4
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/napari_skimage-{{ version }}.tar.gz
+  sha256: 5582e7e3fe7341d581442f19a8b890a1abf1d671e2ebf018da8fc6f6997011ed
 
 build:
   noarch: python
